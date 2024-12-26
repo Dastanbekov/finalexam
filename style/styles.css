@@ -12,7 +12,8 @@ nav {
 }
 
 .navbar-brand {
-    color: #ff8c00 !important;
+    /* color: # !important; */
+    color:#A9A9A9;
 }
 
 .nav-link {
@@ -25,8 +26,10 @@ nav {
 }
 
 header {
-    background-color: #232323;
+    background: linear-gradient(90deg, #2e2e2e, #484848);
     color: #ffffff;
+    text-align: center;
+    padding: 5rem 0;
 }
 
 header h1 {
@@ -129,4 +132,7 @@ form button {
 
 form button:hover {
     background-color: #cc7000;
+}
+a{
+    text-decoration: none;
 }

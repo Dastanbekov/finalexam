@@ -62,15 +62,36 @@
             <h2 class="text-center my-4">Форма обратной связи</h2>
             <form>
                 <div class="mb-3">
-                    <label for="name" class="form-label">Ваше имя</label>
-                    <input type="text" class="form-control" id="name" placeholder="Введите ваше имя" required>
+                    <label for="first-name" class="form-label">Имя</label>
+                    <input type="text" class="form-control" id="first-name" placeholder="Введите ваше имя" required>
                 </div>
                 <div class="mb-3">
-                    <label for="email" class="form-label">Ваш email</label>
+                    <label for="last-name" class="form-label">Фамилия</label>
+                    <input type="text" class="form-control" id="last-name" placeholder="Введите вашу фамилию" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Электронная почта</label>
                     <input type="email" class="form-control" id="email" placeholder="Введите ваш email" required>
                 </div>
                 <div class="mb-3">
-                    <label for="message" class="form-label">Сообщение</label>
+                    <label for="phone" class="form-label">Номер телефона</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Введите ваш номер телефона" required>
+                </div>
+                <div class="mb-3">
+                    <label for="gender" class="form-label">Пол</label>
+                    <select class="form-select" id="gender" required>
+                        <option value="" selected>Выберите ваш пол</option>
+                        <option value="male">Мужской</option>
+                        <option value="female">Женский</option>
+                        <option value="other">Другой</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Тема</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Введите тему сообщения" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Текст сообщения</label>
                     <textarea class="form-control" id="message" rows="5" placeholder="Введите ваше сообщение" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Отправить</button>
